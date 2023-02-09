@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  height: 836px;
+  background-image: url("./banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+.banner .about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+  text-transform: uppercase;
+}
+.banner .about-sign-in a.sign-in {
+  margin-right: 60px;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 20px;
+  padding: 7px;
+  border: 1px solid green;
+  border-radius: 20px;
+}
+.banner .about-sign-in a.about {
+  padding: 7px;
+}
+.banner .logo {
+  height: 100px;
+  margin-top: 40px;
+  background: url("./soohap.png") center center no-repeat;
+}
+.banner .text {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  color: white;
+}
+.banner .btn-start-now {
+  text-align: center;
+}
+.banner .btn-start-now button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: 1px solid green;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.banner .content-center {
+  height: 50px;
+  display: flex;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  font-size: 30px;
+}
+.banner .content-center i {
+  height: 50px;
+  background-color: white;
+}
+.banner .content-center .left,
+.banner .content-center .center,
+.banner .content-center .right {
+  width: 33.333%;
+  display: inline-block;
+}
